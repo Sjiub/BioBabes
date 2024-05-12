@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact_style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <div class="contact">
+        <div class="first-text">Let's get in touch</div>
+        <img src="/images/diaper_animation.png" alt="" class="image">
+        <div class="social-links">
+          <span class="second-text">Connect with us:</span>
+          <ul class="social-media">
+            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="submit-form">
+        <h4 class="third-text text">Contact Us</h4>
+        <form action="">
+          <div class="input-box">
+            <input type="text" class="input" required>
+            <label for="">Name</label>
+          </div>
+          <div class="input-box">
+            <input type="text" class="input" required>
+            <label for="">Email</label>
+          </div>
+          <div class="input-box">
+            <select class="input" required>
+              <option value="" selected disabled>Occupation</option>
+              <option value="daycare_worker">Daycare worker</option>
+              <option value="parent">Parent</option>
+              <option value="municipality_worker">Municipality worker</option>
+              <option value="trash_collection_worker">Trash collection worker</option>
+              <option value="Other">Other (specify in message)</option>
+            </select>
+            
+          </div>
+          <div class="input-box">
+            <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
+            <label for="">Message</label>
+          </div>
+          <input type="submit" class="submit_button" value="Submit">
+        </form>
+      </div>
+  </div>
+  </div>
+</body>
+
+
+</html>

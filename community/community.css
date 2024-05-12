@@ -1,0 +1,79 @@
+/* Add your styles here */
+.section-title {
+  transform: none;
+  opacity: 1;
+  visibility: inherit;
+}
+
+.row {
+  width: 100%;
+}
+
+.row-double {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input {
+  flex: 1 1 40%;
+  margin-bottom: 20px;
+}
+
+.input input[type="text"],
+.input input[type="tel"],
+.input input[type="email"],
+.input textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-footer {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.attach-icon {
+  /* Style for attach icon */
+}
+
+.file-input {
+  margin-left: 20px;
+  position: relative;
+}
+
+.file-input label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.file-input input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* Initially hide the Other input field */
+.other-input {
+    display: none;
+}
+
+/* Show the Other input field when the checkbox is checked */
+#other-checkbox:checked + .other-input {
+    display: block;
+}
