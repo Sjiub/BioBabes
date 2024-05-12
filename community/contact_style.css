@@ -50,19 +50,27 @@ body {
 .submit-form {
   background: #73AB75;
 }
+.headline {
+  padding-left: 35px;
+  padding-top: 28px;
+  font-size: 25px;
+  color:#73AB75;
+  font-weight: 600;
+  text-transform: capitalize;
+}
 
 .first-text {
   padding-left: 35px;
-  padding-top: 20px;
-  font-size: 35px;
+  padding-top: 10px;
+  font-size: 18px;
   color:#73AB75;
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .image {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 
 }
 
